@@ -2,9 +2,6 @@ import time
 from numpy import random
 import os
 
-x = random.randint(50)
-
-os.system("clear")
 
 print("Welcome to Legend Bistro!\n")
 
@@ -13,7 +10,7 @@ name = input("What is your name?\n")
 code = '1021'
 
 if name == code:
-    os.system("python3 admin.py")
+    os.system("python3 /home/runner/legend-bistro/1.0/admin.py")
 else:
 
     print("Hello " + name + ",thank you for coming in today.\n\n")
@@ -47,7 +44,7 @@ else:
     
     howtopay = input("How do you want to pay? ")
 
-    if howtopay == "cash" or "Cash":
+    if howtopay == "cash":
       print("Sorry " + howtopay + " is not accepted.")
     else:
       print("Your payment is accepted,Thank you for purchasing our product.Goodbye!")
