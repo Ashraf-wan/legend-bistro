@@ -2,6 +2,7 @@ import time
 from numpy import random
 import os
 
+x = random(100)
 
 print("Welcome to Legend Bistro!\n")
 
@@ -10,7 +11,7 @@ name = input("What is your name?\n")
 code = '1021'
 
 if name == code:
-    os.system("python3 /home/runner/legend-bistro/1.0/admin.py")
+    os.system("python3 admin.py")
 else:
 
     print("Hello " + name + ",thank you for coming in today.\n\n")

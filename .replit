@@ -1,2 +1,2 @@
 language = "python3"
-run = "cd 2.0 && python3 main.py"
+run = "cd 2.1 && python3 main.py"
